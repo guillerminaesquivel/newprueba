@@ -1,0 +1,39 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* ------------------------------ google fonts ------------------------------ */
+@import url('https://fonts.googleapis.com/css2? family= Catamaran:wght@200 & display=swap');
+
+
+/* -----------------------------selector{
+     prpiedad;valor ----------------------------- */
+h1 {
+    color: pink;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+/* ---------------------- las clases son reutilizables ---------------------- */
+.paragraph {
+    font-style: italic;
+}
+
+ul li {
+    text-decoration: underline;
+}
+
+/* ---------------------------- los id son unicos --------------------------- */
+#iluminati {
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.progress {
+    font-family: 'Catamaran', sans-serif;
+}
+
+body {
+    background-image: url(multimedia/bad.jpg);
+}
